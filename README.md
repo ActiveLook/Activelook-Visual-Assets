@@ -4,9 +4,9 @@ List of the visual objects (images, layouts) available in the default ActiveLook
 
 Configuration name : `ALooK`
 
-Configuration version : `5`
+Configuration version : `6`
 
-Firmware compatible : `4.X.X`
+Firmware compatible : `>4.2.X`
 
 To use the activelook visual asset, use the command : `cfgSet("ALooK")`
 
@@ -18,15 +18,19 @@ To use the activelook visual asset, use the command : `cfgSet("ALooK")`
   * available ASCII table char : `Space` to `~`
 * Font 3 : `Computer Modern sans serif 49px`
   * available ASCII table char : `Space` to `~`
-* Font 4 : `Computer Modern sans serif 62px`
-  * available ASCII table char : `Space` to `;`
+
+## Animation
+| ID | Name                       | Icon                                                 |
+|----|----------------------------|------------------------------------------------------|
+| 0  | `0_ALooK_boot`             | ![image info](./anim/0_ALooK_boot.gif)               |
+
   
 ## Images
 
-| ID | Name                       | Icon                                                                   |
-|----|----------------------------|-----------------------------------------------------|
-| 0  | `0_Battery_Icon30x15`      | ![image info](./images/0_Battery_Icon30x15.bmp)    |
-| 1  | `1_Elapsed_Time46x46`      | ![image info](./images/1_Chrono46x46.bmp)      |
+| ID | Name                       | Icon                                                 |
+|----|----------------------------|------------------------------------------------------|
+| 0  | `0_Battery_Icon30x15`      | ![image info](./images/0_Battery_Icon30x15.bmp)      |
+| 1  | `1_Elapsed_Time46x46`      | ![image info](./images/1_Chrono46x46.bmp)            |
 | 2  | `2_Speed46x46`             | ![image info](./images/2_Speed46x46.bmp)             |
 | 3  | `3_Speed_Avg46x46`         | ![image info](./images/3_Speed_Avg46x46.bmp)         |
 | 4  | `4_Distance46x46`          | ![image info](./images/4_Distance46x46.bmp)          |
@@ -78,12 +82,12 @@ To use the activelook visual asset, use the command : `cfgSet("ALooK")`
 | 50 | `50_Low_GPS15x20.bmp`      | ![image info](./images/50_Low_GPS15x20.bmp)          |
 | 51 | `51_No_GPS15x20.bmp`       | ![image info](./images/51_No_GPS15x20.bmp)           |
 | 52 | `52_Pause15x20.bmp`        | ![image info](./images/52_Pause15x20.bmp)            |
-| 53 | `bord`                     | ![image info](./images/bord.png)                     |
-| 54 | `connection_lost_logo`          | ![image info](./images/connection_lost_logo.png)          |
-| 55 | `please_connect_logo`           | ![image info](./images/please_connect_logo.png)           |
-| 56 | `user-connect`             | ![image info](./images/user-connect.png)             |
-| 57 | `connection_lost_txt`           | ![image info](./images/connection_lost_txt.png)           |
-| 58 | `please_connect_txt`          | ![image info](./images/please_connect_txt.png)          |
+| 53 | `53_bord`                  | ![image info](./images/53_bord.png)                  |
+| 54 | `54_connection-lost`       | ![image info](./images/54_connection-lost.png)       |
+| 55 | `55_please-connect`        | ![image info](./images/55_please-connect.png)        |
+| 56 | `56_user-connect`          | ![image info](./images/56_user-connect.png)          |
+| 57 | `57_please_connect`        | ![image info](./images/57_please_connect.png)        |
+| 58 | `58_connection_lost`       | ![image info](./images/58_connection_lost.png)       |
 | 239| `239_Bluetooth`            | ![image info](./images/239_Bluetooth.png)            |
 | 240| `240_Start`                | ![image info](./images/240_Start.bmp)                |
 
@@ -163,7 +167,10 @@ To use the activelook visual asset, use the command : `cfgSet("ALooK")`
 | 71 | gps                          | 121 | 205 | 20    | 25     | 1    | 86    | 22    | 4      | true       | false  |
 | 72 | no gps                       | 121 | 205 | 20    | 25     | 1    | 86    | 22    | 4      | true       | false  |
 | 73 | pause                        | 121 | 205 | 20    | 25     | 1    | 86    | 22    | 4      | true       | false  |
-| 74 | Power normalised_half        | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 75 | ready                        | 30  | 25  | 244   | 206    | 2    | 255   | 80    | 4      | true       | false  |
+| 76 | pace_max_metric_full         | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 77 | pace_max_imp_full            | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 78 | pace_max_half                | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
 
 ## Layout position
 
