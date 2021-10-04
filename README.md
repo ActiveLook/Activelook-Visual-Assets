@@ -4,9 +4,9 @@ List of the visual objects (images, layouts) available in the default ActiveLook
 
 Configuration name : `ALooK`
 
-Configuration version : `5`
+Configuration version : `6`
 
-Firmware compatible : `4.X.X`
+Firmware compatible : `>= 4.2.X`
 
 To use the activelook visual asset, use the command : `cfgSet("ALooK")`
 
@@ -18,15 +18,19 @@ To use the activelook visual asset, use the command : `cfgSet("ALooK")`
   * available ASCII table char : `Space` to `~`
 * Font 3 : `Computer Modern sans serif 49px`
   * available ASCII table char : `Space` to `~`
-* Font 4 : `Computer Modern sans serif 62px`
-  * available ASCII table char : `Space` to `;`
+
+## Animation
+| ID | Name                       | Icon                                                 |
+|----|----------------------------|------------------------------------------------------|
+| 0  | `0_ALooK_boot`             | ![image info](./anim/0_ALooK_boot.gif)               |
+
   
 ## Images
 
-| ID | Name                       | Icon                                                                   |
-|----|----------------------------|-----------------------------------------------------|
-| 0  | `0_Battery_Icon30x15`      | ![image info](./images/0_Battery_Icon30x15.bmp)    |
-| 1  | `1_Elapsed_Time46x46`      | ![image info](./images/1_Chrono46x46.bmp)      |
+| ID | Name                       | Icon                                                 |
+|----|----------------------------|------------------------------------------------------|
+| 0  | `0_Battery_Icon30x15`      | ![image info](./images/0_Battery_Icon30x15.bmp)      |
+| 1  | `1_Elapsed_Time46x46`      | ![image info](./images/1_Chrono46x46.bmp)            |
 | 2  | `2_Speed46x46`             | ![image info](./images/2_Speed46x46.bmp)             |
 | 3  | `3_Speed_Avg46x46`         | ![image info](./images/3_Speed_Avg46x46.bmp)         |
 | 4  | `4_Distance46x46`          | ![image info](./images/4_Distance46x46.bmp)          |
@@ -78,12 +82,12 @@ To use the activelook visual asset, use the command : `cfgSet("ALooK")`
 | 50 | `50_Low_GPS15x20.bmp`      | ![image info](./images/50_Low_GPS15x20.bmp)          |
 | 51 | `51_No_GPS15x20.bmp`       | ![image info](./images/51_No_GPS15x20.bmp)           |
 | 52 | `52_Pause15x20.bmp`        | ![image info](./images/52_Pause15x20.bmp)            |
-| 53 | `bord`                     | ![image info](./images/bord.png)                     |
-| 54 | `connection_lost_logo`          | ![image info](./images/connection_lost_logo.png)          |
-| 55 | `please_connect_logo`           | ![image info](./images/please_connect_logo.png)           |
-| 56 | `user-connect`             | ![image info](./images/user-connect.png)             |
-| 57 | `connection_lost_txt`           | ![image info](./images/connection_lost_txt.png)           |
-| 58 | `please_connect_txt`          | ![image info](./images/please_connect_txt.png)          |
+| 53 | `53_edge_dot`              | ![image info](./images/53_edge_dot.png)              |
+| 54 | `54_connection-lost`       | ![image info](./images/54_connection-lost.png)       |
+| 55 | `55_please-connect`        | ![image info](./images/55_please-connect.png)        |
+| 56 | `56_user-connect`          | ![image info](./images/56_user-connect.png)          |
+| 57 | `57_please_connect`        | ![image info](./images/57_please_connect.png)        |
+| 58 | `58_connection_lost`       | ![image info](./images/58_connection_lost.png)       |
 | 239| `239_Bluetooth`            | ![image info](./images/239_Bluetooth.png)            |
 | 240| `240_Start`                | ![image info](./images/240_Start.bmp)                |
 
@@ -115,55 +119,58 @@ To use the activelook visual asset, use the command : `cfgSet("ALooK")`
 | 23 | cadence_avg_metric_full      | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
 | 24 | heartbeat_full               | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
 | 25 | power_avg_full               | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
-| 26 | Total_Descent_metric_full    | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
-| 27 | energy_Exp_full              | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
-| 28 | cadence_Max_full             | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
-| 29 | heart_Beat_Max_full          | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
-| 30 | power_Max_full               | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
-| 31 | speed_Max_metric_full        | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
-| 32 | ambient_Pressure_full        | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 26 | total_descent_metric_full    | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 27 | energy_exp_full              | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 28 | cadence_max_full             | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 29 | heart_beat_max_full          | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 30 | power_max_full               | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 31 | speed_max_metric_full        | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 32 | ambient_pressure_full        | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
 | 33 | speed_imp_full               | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
-| 34 | speed_Average_imp_full       | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 34 | speed_average_imp_full       | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
 | 35 | distance_imp_full            | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
 | 36 | elevation_imp_full           | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
 | 37 | pace_imp_full                | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
 | 38 | altitude_imp_full            | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
-| 39 | total_Descent_imp_full       | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
-| 40 | ascent_Speed_Avg_imp_full    | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
-| 41 | speed_Max_imp_full           | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
-| 42 | power3s_Avg_full             | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
-| 43 | Chrono_half                  | 152 | 145 | 122   | 60     | 3    | 113   | 52    | 4      | true       | true   |
-| 44 | Speed_half                   | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 45 | Speed_Average_half           | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 46 | Distance_half                | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 47 | Elevation_Gain_half          | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 48 | Pace_half                    | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 49 | HeartBeat_half               | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 50 | Altitude_half                | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 51 | Cadence_AVG_half             | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 52 | Heart_Beat_AVG_half          | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 53 | Power_AVG_half               | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 54 | Calories_half                | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 55 | Cadence_half                 | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 56 | Power_half                   | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 57 | Total_Descent_half           | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 58 | Energy_Exp_half              | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 59 | Ascent_Speed_Avg_half        | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 60 | Cadence_Max_half             | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 61 | Heart_Beat_Max_half          | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 62 | Power_Max_half               | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 63 | Speed_Max_half               | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 64 | Ambient_Pressure_half        | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 65 | Power3s_Avg_half             | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 66 | pace_Avg_metric_full         | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
-| 67 | pace_Avg_imp_full            | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
-| 68 | Pace_Avg_half                | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
-| 69 | power_norm_full              | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
-| 70 | Power normalised_half        | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 39 | total_descent_imp_full       | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 40 | ascent_speed_avg_imp_full    | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 41 | speed_max_imp_full           | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 42 | power3s_avg_full             | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 43 | chrono_half                  | 152 | 145 | 122   | 60     | 3    | 113   | 52    | 4      | true       | true   |
+| 44 | speed_half                   | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 45 | speed_average_half           | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 46 | distance_half                | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 47 | elevation_gain_half          | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 48 | pace_half                    | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 49 | heartbeat_half               | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 50 | altitude_half                | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 51 | cadence_avg_half             | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 52 | heart_beat_avg_half          | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 53 | power_avg_half               | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 54 | calories_half                | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 55 | cadence_half                 | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 56 | power_half                   | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 57 | total_descent_half           | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 58 | energy_exp_half              | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 59 | ascent_speed_avg_half        | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 60 | cadence_max_half             | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 61 | heart_beat_max_half          | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 62 | power_max_half               | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 63 | speed_max_half               | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 64 | ambient_pressure_half        | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 65 | power3s_avg_half             | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 66 | pace_avg_metric_full         | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 67 | pace_avg_imp_full            | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 68 | Pace_avg_half                | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 69 | power_normalized_full        | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 70 | power_normalized_half        | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
 | 71 | gps                          | 121 | 205 | 20    | 25     | 1    | 86    | 22    | 4      | true       | false  |
-| 72 | no gps                       | 121 | 205 | 20    | 25     | 1    | 86    | 22    | 4      | true       | false  |
+| 72 | no_gps                       | 121 | 205 | 20    | 25     | 1    | 86    | 22    | 4      | true       | false  |
 | 73 | pause                        | 121 | 205 | 20    | 25     | 1    | 86    | 22    | 4      | true       | false  |
-| 74 | Power normalised_half        | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
+| 75 | ready                        | 30  | 25  | 244   | 206    | 2    | 255   | 80    | 4      | true       | false  |
+| 76 | pace_max_metric_full         | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 77 | pace_max_imp_full            | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 78 | pace_max_half                | 152 | 145 | 122   | 60     | 3    | 87    | 52    | 4      | true       | true   |
 
 ## Layout position
 
