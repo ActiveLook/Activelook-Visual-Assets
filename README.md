@@ -117,7 +117,7 @@ To use the activelook visual asset, use the command : `cfgSet("ALooK")`
 | 21 | heartbeat_full               | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
 | 22 | power_full                   | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
 | 23 | cadence_avg_metric_full      | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
-| 24 | heartbeat_full               | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
+| 24 | heartbeat_avg_full           | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
 | 25 | power_avg_full               | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
 | 26 | total_descent_metric_full    | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
 | 27 | energy_exp_full              | 30  | 85  | 244   | 60     | 3    | 165   | 49    | 4      | true       | true   |
