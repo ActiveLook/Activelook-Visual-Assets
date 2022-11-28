@@ -27,12 +27,12 @@ To use the activelook visual asset, use the command : `cfgSet("ALooK")`
   * with two ghost letters :
     * `$` corresponding to `0`
     * `&` corresponding to `:`
-* Font 3 : `SourceSansPro SemiBold Spacing 75px`
+* Font 4 : `SourceSansPro SemiBold Spacing 75px`
   * available ASCII table char : `Space` to `;`
   * with two ghost letters :
     * `$` corresponding to `0`
     * `&` corresponding to `:`
-* Font 3 : `SourceSansPro SemiBold Spacing 82px`
+* Font 5 : `SourceSansPro SemiBold Spacing 82px`
   * available ASCII table char : `Space` to `;`
   * with two ghost letters :
     * `$` corresponding to `0`
