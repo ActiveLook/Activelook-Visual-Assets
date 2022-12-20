@@ -14,29 +14,19 @@ To use the activelook visual asset, use the command : `cfgSet("ALooK")`
 
 * Font 1 : `SourceSansPro SemiBold Spacing 24px`
   * available ASCII table char : `Space` to `~`
-  * with two "ghost" letters (black char of fixed width)
-    * `$` : black char having same width as a standard digit `0`
-    * `&` : black char having same width as a standard period, colon or comma `:`
+  * with two ["ghost" letters](https://github.com/ActiveLook/Activelook-Visual-Assets#how-to-align-data-inside-layout)
 * Font 2 : `SourceSansPro SemiBold Spacing 38px`
   * available ASCII table char : `Space` to `~`
-  * with two "ghost" letters (black char of fixed width)
-    * `$` : black char having same width as a standard digit `0`
-    * `&` : black char having same width as a standard period, colon or comma `:`
+  * with two ["ghost" letters](https://github.com/ActiveLook/Activelook-Visual-Assets#how-to-align-data-inside-layout)
 * Font 3 : `SourceSansPro SemiBold Spacing 64px`
   * available ASCII table char : `Space` to `~`
-  * with two "ghost" letters (black char of fixed width)
-    * `$` : black char having same width as a standard digit `0`
-    * `&` : black char having same width as a standard period, colon or comma `:`
+  * with two ["ghost" letters](https://github.com/ActiveLook/Activelook-Visual-Assets#how-to-align-data-inside-layout)
 * Font 4 : `SourceSansPro SemiBold Spacing 75px`
   * available ASCII table char : `Space` to `;`
-  * with two "ghost" letters (black char of fixed width)
-    * `$` : black char having same width as a standard digit `0`
-    * `&` : black char having same width as a standard period, colon or comma `:`
+  * with two ["ghost" letters](https://github.com/ActiveLook/Activelook-Visual-Assets#how-to-align-data-inside-layout)
 * Font 5 : `SourceSansPro SemiBold Spacing 82px`
   * available ASCII table char : `Space` to `;`
-  * with two "ghost" letters (black char of fixed width)
-    * `$` : black char having same width as a standard digit `0`
-    * `&` : black char having same width as a standard period, colon or comma `:`
+  * with two ["ghost" letters](https://github.com/ActiveLook/Activelook-Visual-Assets#how-to-align-data-inside-layout)
 
 ## Animation
 
@@ -355,10 +345,10 @@ For example purposes, you will find below the layout positions that are used in 
 
 ## How to align data inside layout
 
-We have added two "ghost" letters to our custom font for data alignement and graphical artefacts clean up :
+We have added two "ghost" letters to our custom font to ease data alignement. Ghost letters are black char of fixed width.
 
-* `$` corresponding to `0`
-* `&` corresponding to `:`
+* `$` : black char having same width as a standard digit `0`
+* `&` : black char having same width as a standard period, colon or comma `:`
 
 Our layout are made to display `4 digits` and a `.` or `:`
 
