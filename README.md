@@ -14,29 +14,29 @@ To use the activelook visual asset, use the command : `cfgSet("ALooK")`
 
 * Font 1 : `SourceSansPro SemiBold Spacing 24px`
   * available ASCII table char : `Space` to `~`
-  * with two ghost letters :
-    * `$` corresponding to `0`
-    * `&` corresponding to `:`
+  * with two "ghost" letters (black char of fixed width)
+    * `$` : black char having same width as a standard digit `0`
+    * `&` : black char having same width as a standard period, colon or comma `:`
 * Font 2 : `SourceSansPro SemiBold Spacing 38px`
   * available ASCII table char : `Space` to `~`
-  * with two ghost letters :
-    * `$` corresponding to `0`
-    * `&` corresponding to `:`
+  * with two "ghost" letters (black char of fixed width)
+    * `$` : black char having same width as a standard digit `0`
+    * `&` : black char having same width as a standard period, colon or comma `:`
 * Font 3 : `SourceSansPro SemiBold Spacing 64px`
   * available ASCII table char : `Space` to `~`
-  * with two ghost letters :
-    * `$` corresponding to `0`
-    * `&` corresponding to `:`
+  * with two "ghost" letters (black char of fixed width)
+    * `$` : black char having same width as a standard digit `0`
+    * `&` : black char having same width as a standard period, colon or comma `:`
 * Font 4 : `SourceSansPro SemiBold Spacing 75px`
   * available ASCII table char : `Space` to `;`
-  * with two ghost letters :
-    * `$` corresponding to `0`
-    * `&` corresponding to `:`
+  * with two "ghost" letters (black char of fixed width)
+    * `$` : black char having same width as a standard digit `0`
+    * `&` : black char having same width as a standard period, colon or comma `:`
 * Font 5 : `SourceSansPro SemiBold Spacing 82px`
   * available ASCII table char : `Space` to `;`
-  * with two ghost letters :
-    * `$` corresponding to `0`
-    * `&` corresponding to `:`
+  * with two "ghost" letters (black char of fixed width)
+    * `$` : black char having same width as a standard digit `0`
+    * `&` : black char having same width as a standard period, colon or comma `:`
 
 ## Animation
 
